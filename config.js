@@ -39,7 +39,7 @@ window.APP_CONFIG = {
     stats: true,
     services: true,
     gallery: true,
-    reviews: true,
+    reviews: false,
     about: true,
     hours: true,
     faq: true,
@@ -56,7 +56,7 @@ window.APP_CONFIG = {
       headline: "Expert Auto Repair You Can Trust",
       subtext: "From oil changes to full engine overhauls — we keep you rolling.",
       buttons: [
-        { label: "Book Now",     icon: "calendar", link: "#booking"  },
+        { label: "Book Now",     icon: "calendar", link: "#book"  },
         { label: "Our Services", icon: "wrench",   link: "#services" }
       ]
     },
@@ -111,10 +111,10 @@ window.APP_CONFIG = {
     ],
 
     nav: [
-      { label: "Home",       icon: "home",     link: "#top"      },
+      { label: "Home",       icon: "home",     link: "#app"      },   
       { label: "Services",   icon: "wrench",   link: "#services" },
-      { label: "Book",       icon: "calendar", link: "#booking"  },
-      { label: "Directions", icon: "map-pin",  link: "#contact"  }
+      { label: "Book",       icon: "calendar", link: "#book"     },   
+      { label: "Directions", icon: "map-pin",  link: "https://www.google.com/maps/search/?api=1&query=D%26G+Automotive+Repair+Grants+Pass+OR" }
     ]
 
   }
