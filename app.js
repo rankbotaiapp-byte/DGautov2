@@ -67,7 +67,7 @@
     },
 
     services: () => `
-      <section class="services">
+      <section id="services" class="services">
         <h2>${icon("notebook-pen")} Services</h2>
         ${cfg.content.services.map(s => `
           <div class="card">
@@ -146,7 +146,7 @@
     },
 
     contact: () => `
-      <section class="contact">
+      <section id="contact" class="contact">
         <h2>${icon("map-pin")} Get In Touch</h2>
         <div class="contact-rows">
           <a class="contact-row" href="tel:${cfg.business.phone}">
@@ -166,7 +166,7 @@
         </p></section>`;
       }
       return `
-      <section class="booking">
+      <section id="book" class="booking">
         <h2>${icon("calendar-check")} Request Info</h2>
         <form id="bookingForm" action="${cfg.forms.endpoint}" method="POST">
           <input type="text"  name="name"  placeholder="Your name" required />
