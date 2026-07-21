@@ -29,7 +29,7 @@ window.APP_CONFIG = {
   },
 
   forms: {
-    endpoint: ""
+    endpoint: "https://formspree.io/f/xaqrjqrw"
   },
 
   orb: { on: true, label: "AXIOM" },
