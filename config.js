@@ -17,7 +17,7 @@ window.APP_CONFIG = {
     name: "D&G Automotive Repair",
     tagline: "Saving the world one car at a time",
     phone: "541-295-4225",
-    email: "",
+    email: "rankbotaiapp@gmail.com",
     logo: ""
   },
 
